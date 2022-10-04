@@ -258,3 +258,34 @@ berada di dalamnya.
 
 - Kelemahan Mikro Kernel
 1. kinerja akan berkurang selagi bertambahnya fungsi-fungsi yang digunakan. 
+
+<hr>
+
+## Pebedaan
+
+- Struktur Sederhana 
+
+<p align="center"><img src="foto4/mono.jpg"></p>
+
+<p align="justify">
+Sistem operasi ini sebagai kumpulan prosedur yang masing-masing dapat saling dipanggil jika dibutuhkan.
+Karena semua layanan terdapat di dalam satu ruang (satu baris memanjang) keuntungan yang didapat dalam menggunakan struktur ini adalah semua layanan yang dipanggil dapat dilakukan dengan cepat.</p>
+
+- Struktur Berlapis 
+<p align="center"><img src="foto4/3.jpg"></p>
+<p align="justify">Struktur berlapis merupakan sistem operasi lebih tersruktur yang<b>dipecah menjadi beberapa lapisan (tingkat)</b>. Lapisan bawah (lapisan 0) merupakan perangkat keras dan yang tertinggi (lapisan N) merupakan antarmuka pengguna.</p>
+
+- Mikro Kernel
+<p align="center"><img src="foto4/kernel.jpg">
+<p align="justify">Mikrokernel merupakan metode menyusun sistem operasi dengan menghapus semua komponen yang tidak penting dari kernel dan mengimplementasikannya sebagai sistem dan program tingkat pengguna. Perbedaan yang ada metode kernel ini adalah lebih baik dari kedua sistem operasi diatas, lebih stabi, dan lebih efisien. </p>
+
+<p align >
+
+## Kesimpulan
+- Struktur sederhana atau monolitik merupakan struktur sistem operasi yang <b>tidak terstruktur</b>. Sistem operasi ini sebagai kumpulan prosedur yang masing-masing dapat saling dipanggil jika dibutuhkan. Setiap prosedur yang ada di dalam sistem ini mempunyai interface yang sudah didefinisikan dengan baik.
+
+
+- Struktur berlapis merupakan sistem operasi dipecah menjadi beberapa lapisan (tingkat). Lapisan bawah (lapisan 0) merupakan perangkat keras dan yang tertinggi (lapisan N) merupakan antarmuka pengguna. Lapisan sistem operasi adalah implementasi dari objek abstrak yang dibuat data dan operasi yang dapat memanipulasi data tersebut. Keuntungan utama dari pendekatan berlapis adalah kesederhanaan konstruksi dan debugging.
+
+
+- Mikrokernel merupakan metode menyusun sistem operasi dengan menghapus semua komponen yang tidak penting dari kernel dan mengimplementasikannya sebagai sistem dan program tingkat pengguna. Berfungsi untuk menyediakan komunikasi antara program klien dan berbagai layanan yang juga berjalan di ruang pengguna. Komunikasi diberikan melalui penyampaian pesan. Manfaat dari pendekatan mikrokernel adalah membuat perluasan sistem operasi lebih mudah
